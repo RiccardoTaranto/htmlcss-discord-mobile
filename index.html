@@ -1,11 +1,5 @@
 <!--
-repo: htmlcss-discord-mobile
-
 Note: 
-
-- lavorare con dimensione fissa a 512px!
-
-- I font utilizzati sono:  DM Sans e Sigmar, su Google Fonts
 
 - Per l’icona di download usa Bootstrap Icons
 
@@ -33,24 +27,29 @@ passate oltre lo vedremo assieme martedi.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord Mobile</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sigmar&display=swap" rel="stylesheet">
+    <!--google fonts-->
 </head>
 
-<body>
+<body class="container">
     <header class="header_banner">
-        <img src="assets/img/banner.png" alt="Discord">
+        <img id="banner" src="assets/img/banner.png" alt="Discord">
     </header>
     <!-- /header_banner -->
 
     <main>
-        <div class="open_discord">
-            <h2>GROUP CHAT THAT'S ALL FUN & GAMES</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut modi ipsam accusantium officiis, harum, tempora facilis molestiae neque praesentium laudantium quibusdam provident quia doloremque pariatur iste placeat itaque. Ut?</p>
-            <button>Download for Windows</button>
-            <button>Open Discord to your Browser</button>
-        </div>
-        <!-- /.open_discord -->
+        <div class="card_box">
+            <div class="card" style="background-color: transparent;">
+                <h2>GROUP CHAT THAT'S ALL FUN & GAMES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut modi ipsam accusantium officiis, harum, tempora facilis molestiae neque praesentium laudantium quibusdam provident quia doloremque pariatur iste placeat itaque. Ut?</p>
+                <button>Download for Windows</button>
+                <button>Open Discord to your Browser</button>
+            </div>
+            <!-- /.open_discord -->
 
-        <div class="cards_container">
             <div class="card">
                 <h2>MAKE YOUR GROUP CHATS MORE FUN</h2>
                 <P>
@@ -75,7 +74,7 @@ passate oltre lo vedremo assieme martedi.
                 </div>
                 <!-- /.card_video -->
             </div>
-
+        </div>
 
     </main>
 
