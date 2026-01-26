@@ -8,7 +8,7 @@
     max-width: 512px;
     width: 100%;
     margin: 0 auto;
-    background-color: purple;
+    background-color: #36393f;
 }
 
 #banner {
@@ -16,52 +16,43 @@
 }
 
 .card {
-  color: whitesmoke;
-  background-color: #535dc4 ;
-  border-radius: 15px;
-  padding: 2.5rem 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-    }
+    color: whitesmoke;
+    background-color: #535dc4;
+    border-radius: 15px;
+    padding: 2.5rem 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#card_button {
+    background-color: transparent;
+    text-align: center;
+}
 
 h2 {
     font-family: "Sigmar", sans-serif;
+    font-size: 2rem;
 }
 
 p {
     font-family: "DM Sans", sans-serif;
 }
 
+/* button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #5865f2;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-/*
-
-   
-    border: 1px solid rgb(212, 212, 212);
-    min-height: 150px;
-    box-shadow: -9px -9px 5px #613B31;
-    background-color: #F9E04F;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-   
-    margin: 2rem 2rem;
-
-
-
-
-    border-color: black;
-    border-width: 2px;
-    padding: 20px;
-    margin-bottom: 20px;
-   
-
-*/
+#download_button {
+    background-color: whitesmoke;
+    color: black;
+}
