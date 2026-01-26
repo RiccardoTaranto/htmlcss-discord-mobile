@@ -8,7 +8,7 @@
     max-width: 512px;
     width: 100%;
     margin: 0 auto;
-    background-color: grey;
+    background-color: #383f8c;
 }
 
 #banner {
@@ -62,4 +62,5 @@ button {
 #img1, #img2 {
     border-radius: 15px;
     width: 400px;
+    
 }
