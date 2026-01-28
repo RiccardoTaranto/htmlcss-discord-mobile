@@ -9,6 +9,10 @@
     width: 100%;
     margin: 0 auto;
     background-color: #383f8c;
+    /*background-image: url("assets/img/background.png");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #banner {
@@ -59,8 +63,12 @@ button {
     width: 100%;
 }
 
-#img1, #img2 {
+#img1,
+#img2 {
     border-radius: 15px;
-    width: 400px;
-    
+    max-width: 100%;
+}
+
+.icons {
+position: absolute;
 }
