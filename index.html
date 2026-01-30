@@ -15,62 +15,69 @@
     <!--google fonts-->
 </head>
 
-<body class="container">
-    <header class="header_banner">
+<body>
+    <header id="app_header">
         <img id="banner" src="assets/img/banner.png" alt="Discord">
     </header>
     <!-- /header_banner -->
-    <main>
-        <div class="card_box">
-            <div id="card_button" class="card">
-                <h2>GROUP CHAT THAT'S ALL FUN & GAMES</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut modi ipsam accusantium officiis,
-                    harum, tempora facilis molestiae neque praesentium laudantium quibusdam provident quia doloremque
-                    pariatur iste placeat itaque. Ut?</p>
-                <button id="download_button">Download for Windows</button>
-                <button>Open Discord to your Browser</button>
-            </div>
-            <!-- /.card_button  -->
 
-            <div class="icons">
-                <img src="assets/img/discord_cube.png" alt="discord_cube">
-            </div>
-            <!--/.icons-->
+    <main id="app_main">
+        <section class="jumbotron">
+            <h2>GROUP CHAT THAT'S ALL FUN & GAMES</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut modi ipsam accusantium officiis,
+                harum, tempora facilis molestiae neque praesentium laudantium quibusdam provident quia doloremque
+                pariatur iste placeat itaque. Ut?
+            </p>
+            <button class="btn btn-light">
+                <i class="bi bi-cloud-download"></i>Download for Windows
+            </button>
 
+            <a href="#" class="btn btn_primary">
+                Open Discord to your Browser
+            </a>
+        </section>
+        <!-- /.jumbotron-->
+
+        <section class="cards">
             <div class="card">
+                <img class="icon" src="assets/img/discord_cube.png" alt="discord_cube">
                 <h2>MAKE YOUR GROUP CHATS MORE FUN</h2>
                 <P>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, fuga odio. Cumque, sit! Mollitia
                     quam libero illo, hic dolorum tempora officia labore neque sapiente error pariatur impedit nisi
                     reprehenderit fuga?
                 </P>
-                <div class="card_upload">
-                    <!-- <img id="img1" src="assets/img/discord_demo.png" alt="discord_demo"> -->
-                    <video id="img1" src="assets/video/video_demo.mp4" autoplay muted loop></video>
-                </div>
+                <!-- <img id="img1" src="assets/img/discord_demo.png" alt="discord_demo"> -->
+                <video id="img1" src="assets/video/video_demo.mp4" autoplay muted loop controls></video>
             </div>
-            <!-- /.card_upload -->
-
-            <div class="icons">
-                <img src="assets/img/eyes.png" alt="eyes">
-            </div>
-            <!--/.icons-->
+            <!-- /.card -->
 
             <div class="card">
+                <img class="icon" src="assets/img/eyes.png" alt="eyes">
                 <h2>MAKE YOUR GROUP CHATS MORE FUN</h2>
                 <P>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, fuga odio. Cumque, sit! Mollitia
                     quam libero illo, hic dolorum tempora officia labore neque sapiente error pariatur impedit nisi
                     reprehenderit fuga?
                 </P>
-                <div class="card_video">
-                    <!-- <img id="img2" src="assets/img/streamer_demo.png" alt="streamer_demo"> -->
-                    <video id="img2" src="assets/video/streamer.mp4" autoplay muted loop></video>
-                </div>
+                <!-- <img id="img2" src="assets/img/streamer_demo.png" alt="streamer_demo"> -->
+                <video id="img2" src="assets/video/streamer.mp4" autoplay muted loop controls></video>
             </div>
-            <!-- /.card_video -->
-        </div>
+            <!-- /.card -->
+        </section>
+        <!--/.cards-->
+
+        <section class="cards">
+            <div class="card"></div>
+            <!-- /.card -->
+            <div class="card"></div>
+            <!-- /.card -->
+            <div class="card"></div>
+            <!-- /.card -->
+        </section>
+        <!-- /.cards -->
+
     </main>
+    <!--/#app_main-->
 </body>
-
 </html>
