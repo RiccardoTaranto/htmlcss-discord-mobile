@@ -88,11 +88,6 @@ h2
 .card
 {
   color: var(--dis-light);
-
-  /* background-color: var(--dis-primary); */
-  /* background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: green;
   background-image: linear-gradient(338deg, #fb1f1fb5, #3e3ed1ba);
   background-blend-mode: difference;
@@ -104,20 +99,9 @@ h2
 
 .icon
 {
-  width: 70px;
-
+  width: 20%;
   border: 1px dashed red;
   position: absolute;
-  left: 50%;
+  left: 20%;
   top: 0;
-  transform: translate(-50%, -50%);
-  /*  top: -30px;
-  left: 10rem; */
-  /* 
-  top: 0;
-  transform: translateY(-50%); */
-
-  /*    */
-  /* transform: translateX(-50%); */
-  /*   transform: translateY(-50%); */
-}
+  transform: translate(-50%, -50%);}
